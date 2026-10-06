@@ -1,0 +1,5 @@
+body{margin:0;background:#05080d;color:#eef6ff;font-family:Arial;text-align:center}header{padding:18px;background:#09111b;display:flex;justify-content:space-between}.cameraBox{background:#000;min-height:42vh;display:grid;place-items:center;overflow:hidden;border-radius:12px}
+.cameraBox video,.cameraBox img{width:100%;height:auto;display:block}
+#phoneCam{display:none}
+.cameraButtons{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+.cameraButtons button:last-child{grid-column:1/-1}main{padding:12px}.card{background:#09111b;border:1px solid #1b2b40;border-radius:12px;padding:12px;margin-top:10px}button,input{padding:14px;margin:4px;border-radius:9px;background:#0d1927;color:#fff;border:1px solid #29405a}input{width:calc(100% - 30px)}.danger{width:100%;background:#991b2a;border-color:#d73b4b}

@@ -1,0 +1,23 @@
+NEXUS FULL PACKAGE
+1. Install Python 3.
+2. Open a terminal in this folder.
+3. Run: pip install -r requirements.txt
+4. Connect the USB webcam to the PC.
+5. Run: python server.py
+6. On the PC open: http://127.0.0.1:8080
+7. On the phone, while on the same Wi-Fi, open: http://PC_IP:8080/mobile.html
+8. In the PC app, enter the Nano IP and connect.
+9. For Nano: open firmware/nexus_cam_esp32.ino in Arduino IDE, replace Wi-Fi credentials, select Arduino Nano ESP32, verify pins, and upload with motor power disconnected.
+
+IMPORTANT:
+- The physical E-stop must remain in the power circuit.
+- Set the servo buck converter to exactly 6.0 V before connecting the DS3218.
+- Verify Nano pin labels and TMC2209 wiring on your actual boards.
+- AI target matching is based on supported COCO-SSD classes plus command parsing; this package does NOT claim unrestricted human-like visual reasoning.
+- The phone receives the PC webcam stream; it does not directly access the USB webcam.
+
+
+PHONE CAMERA
+The phone page now requests the iPhone camera with the rear/environment camera preferred.
+Tap START PHONE CAMERA and allow Camera permission. FLIP CAMERA switches between rear and front.
+USE PC CAMERA returns to the PC webcam stream.

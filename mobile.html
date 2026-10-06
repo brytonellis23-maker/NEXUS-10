@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#05080d"><title>NEXUS Mobile</title><link rel="stylesheet" href="style.css"></head>
+<body><header><b>NEXUS</b><span id="net">PC OFFLINE</span></header><main><div class="cameraBox">
+  <video id="phoneCam" autoplay playsinline muted></video>
+  <img id="feed" src="/stream" class="pcFeed">
+</div>
+<div class="cameraButtons">
+  <button id="cameraStart">📷 START PHONE CAMERA</button>
+  <button id="flip">🔄 FLIP CAMERA</button>
+  <button id="usePc">🖥 USE PC CAMERA</button>
+</div>
+<div class="card"><h2>AI</h2><input id="target" placeholder="red cup, bottle, chair"><button id="lock">LOCK TARGET</button><button id="unlock">UNLOCK</button><p id="ai">AI status</p></div>
+<div class="card"><h2>PAN / TILT</h2><button data-c="up">▲</button><div><button data-c="left">◀</button><button id="stop">STOP</button><button data-c="right">▶</button></div><button data-c="down">▼</button><p id="pos">Pan 0° • Tilt 90°</p></div>
+<button id="estop" class="danger">EMERGENCY STOP</button></main><script src="mobile.js"></script></body></html>
